@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.calculator {
+    width: 320px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    background: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.previous-operand {
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 5px;
+    min-height: 20px;
+}
+
+.current-operand {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-number {
+    background: #f8f9fa;
+    color: #333;
+}
+
+.btn-number:hover {
+    background: #e9ecef;
+}
+
+.btn-operator {
+    background: #6c757d;
+    color: white;
+}
+
+.btn-operator:hover {
+    background: #5a6268;
+}
+
+.btn-operator.active {
+    background: #007bff;
+}
+
+.btn-equals {
+    background: #007bff;
+    color: white;
+    grid-row: span 2;
+}
+
+.btn-equals:hover {
+    background: #0056b3;
+}
+
+.btn-clear {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-clear:hover {
+    background: #c82333;
+}
+
+.btn-delete {
+    background: #fd7e14;
+    color: white;
+}
+
+.btn-delete:hover {
+    background: #e55a00;
+}
+
+.btn-decimal {
+    background: #f8f9fa;
+    color: #333;
+}
+
+.btn-decimal:hover {
+    background: #e9ecef;
+}
+
+.btn-zero {
+    grid-column: span 2;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .calculator {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .btn {
+        height: 50px;
+        font-size: 18px;
+    }
+    
+    .current-operand {
+        font-size: 28px;
+    }
+}
