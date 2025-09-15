@@ -7,37 +7,16 @@ A beautiful, responsive web calculator built with vanilla HTML, CSS, and JavaScr
 ## ✨ Features
 
 ### 🎯 Core Functionality
-- **Basic Arithmetic Operations**: Addition (+), Subtraction (−), Multiplication (×), Division (÷)
-- **Decimal Support**: Handle floating-point numbers with precision
-- **Clear & Delete**: Clear all (C) or delete last digit (⌫)
-- **Error Handling**: Division by zero protection with user alerts
-- **Continuous Calculations**: Chain operations without pressing equals
 
 ### 🎨 User Interface
-- **Modern Glass-morphism Design**: Sleek, translucent interface with backdrop blur
-- **Responsive Layout**: Works perfectly on desktop, tablet, and mobile devices
-- **Visual Feedback**: Hover effects, active states, and smooth transitions
-- **Intuitive Button Layout**: Standard calculator button arrangement
-- **Professional Display**: Shows current operation and previous operand
 
 ### ⌨️ Keyboard Support
-- **Number Keys**: 0-9 for digit input
-- **Operator Keys**: +, -, *, / for arithmetic operations
-- **Enter/=**: Execute calculation
-- **Escape/C**: Clear calculator
-- **Backspace/Delete**: Remove last digit
-- **Decimal Point**: . or , for decimal input
 
 ### 📱 Responsive Design
-- **Mobile-First Approach**: Optimized for all screen sizes
-- **Touch-Friendly**: Large buttons perfect for touch interaction
-- **Fluid Layout**: Adapts beautifully to any device orientation
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Any modern web browser (Chrome, Firefox, Safari, Edge)
-- No additional software or dependencies required
 
 ### Installation
 
@@ -78,10 +57,6 @@ calculator-website/
 5. **Continue with result** or clear to start fresh
 
 ### Advanced Features
-- **Chaining calculations**: Results automatically carry over for continued operations
-- **Decimal precision**: Use the decimal point (.) for floating-point numbers
-- **Error recovery**: Division by zero shows alert and preserves state
-- **Visual feedback**: Current operation displayed above main result
 
 ### Keyboard Shortcuts
 | Key | Action |
@@ -96,22 +71,10 @@ calculator-website/
 ## 🛠️ Technical Details
 
 ### Technologies Used
-- **HTML5**: Semantic structure and accessibility
-- **CSS3**: Modern styling with Flexbox and Grid
-- **Vanilla JavaScript**: ES6+ features and object-oriented design
 
 ### Browser Compatibility
-- ✅ Chrome 60+
-- ✅ Firefox 55+
-- ✅ Safari 11+
-- ✅ Edge 79+
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
 
 ### Performance Features
-- **Lightweight**: No external dependencies
-- **Fast loading**: Optimized CSS and minimal JavaScript
-- **Smooth animations**: Hardware-accelerated transitions
-- **Memory efficient**: Clean JavaScript architecture
 
 ## 🎨 Customization
 
@@ -130,9 +93,6 @@ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 ```
 
 ### Layout Modifications
-- Adjust button sizes in `.btn` class
-- Modify grid layout in `.buttons` class
-- Change calculator dimensions in `.calculator` class
 
 ## 🤝 Contributing
 
@@ -168,18 +128,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Acknowledgments
 
-- Design inspired by modern calculator apps
-- Glass-morphism design trend
-- Web accessibility best practices
-- Mobile-first responsive design principles
 
 ## 📧 Contact
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
-- **Project Link**: [https://github.com/yourusername/calculator-website](https://github.com/yourusername/calculator-website)
 
----
 
 ⭐ **Star this repo** if you found it helpful!
 
